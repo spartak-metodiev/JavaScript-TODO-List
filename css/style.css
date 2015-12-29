@@ -1,0 +1,213 @@
+body{
+	
+	background-color:#000;
+	margin: 0px; padding: 0px;
+	font-family:Georgia, serif;
+
+
+}
+
+.check-list-body{
+
+	width:500px;
+	height:300px;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;	
+	background-color:#fff;
+
+
+
+
+}
+
+.input-field{
+
+	width:498px;
+	height:50px;
+	border:1px solid #ccc;
+
+
+
+}
+
+#input{
+	position:absolute;
+	left:40px;
+	top:15px;
+	width:400px;
+	border:none;
+
+  
+  
+
+
+}
+
+#button{
+    background: none;
+    border:none;
+    position:absolute;
+    top:15px;
+    color:#ccc;
+
+
+}
+#button:hover{
+	color:#999;
+}
+
+
+.footer-options{
+     
+     position:absolute;
+     bottom:0px;
+
+     border:1px solid #ccc	;
+     height: 30px;
+     width:498px;
+     z-index: 99;
+     background-color: #fff;
+
+}
+
+
+
+#all{
+
+	display:inline-block;
+	position:absolute;
+	left:150px;
+	bottom:1px;
+	padding:3px;
+
+
+
+}
+
+
+#active{
+    
+	display:inline-block;
+	position:inherit;
+	
+	left:190px;
+	bottom:1px;
+	padding:3px;
+}
+
+#completed{
+	display:inline-block;
+	position:absolute;
+	left:250px;
+	
+	bottom:1px;
+	padding:3px;
+}
+
+#all:hover{
+	border:1px solid #999;
+	border-radius:3px;
+	cursor:default; 
+
+}
+
+#active:hover{
+		border:1px solid #999;
+		border-radius:3px;
+        cursor:default; 
+}
+
+
+#completed:hover{
+		border:1px solid #999;
+		border-radius:3px;
+	    cursor:default; 
+}
+
+
+
+
+
+.newDiv{
+
+	width:480px;
+	height:42px;
+	border:1px solid #ccc;
+	position: relative;
+
+
+}
+
+.firstValue{
+
+	
+	width:400px;
+	position:absolute;
+	float:right;
+	left:50px
+
+}
+
+
+.checkbox{
+	position:inherit;
+	margin-top:15px;
+	
+	left:0px;
+
+	
+
+
+}
+
+.exit{
+
+	position:inherit;
+	float:right;
+	color:#000;
+	right:20px;
+	display:inline-block;
+	margin-top:10px;
+	margin-right:5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color:#996666;
+
+
+
+
+
+}
+
+.exit:hover{
+	border:1px solid #999;
+	border-radius:3px;
+	cursor:default; 
+	color:#999;
+	
+
+}
+
+
+
+.display{
+	display: inline-block;
+}
+
+
+.true{
+	color: #ccc;
+	text-decoration: line-through;;
+}
+
+.border{
+	border: 1px solid #999;
+}
+
+#value{
+	height: 70%;
+	overflow: scroll;
+}
