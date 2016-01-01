@@ -11,12 +11,12 @@ body{
 
 	width:500px;
 	height:300px;
-    margin: auto;
-    position: absolute;
-    top: 0; 
-    left: 0;
-    bottom: 0; 
-    right: 0;	
+        margin: auto;
+        position: absolute;
+	top: 0; 
+	left: 0;
+	bottom: 0; 
+	right: 0;	
 	background-color:#fff;
 
 
@@ -48,11 +48,11 @@ body{
 }
 
 #button{
-    background: none;
-    border:none;
-    position:absolute;
-    top:15px;
-    color:#ccc;
+	background: none;
+	border:none;
+	position:absolute;
+	top:15px;
+	color:#ccc;
 
 
 }
@@ -63,14 +63,13 @@ body{
 
 .footer-options{
      
-     position:absolute;
-     bottom:0px;
-
-     border:1px solid #ccc	;
-     height: 30px;
-     width:498px;
-     z-index: 99;
-     background-color: #fff;
+	position:absolute;
+	bottom:0px;
+	border:1px solid #ccc	;
+	height: 30px;
+	width:498px;
+	z-index: 99;
+	background-color: #fff;
 
 }
 
@@ -93,7 +92,6 @@ body{
     
 	display:inline-block;
 	position:inherit;
-	
 	left:190px;
 	bottom:1px;
 	padding:3px;
@@ -103,7 +101,6 @@ body{
 	display:inline-block;
 	position:absolute;
 	left:250px;
-	
 	bottom:1px;
 	padding:3px;
 }
@@ -116,16 +113,16 @@ body{
 }
 
 #active:hover{
-		border:1px solid #999;
-		border-radius:3px;
+	border:1px solid #999;
+	border-radius:3px;
         cursor:default; 
 }
 
 
 #completed:hover{
-		border:1px solid #999;
-		border-radius:3px;
-	    cursor:default; 
+	border:1px solid #999;
+	border-radius:3px;
+	cursor:default; 
 }
 
 
@@ -156,11 +153,7 @@ body{
 .checkbox{
 	position:inherit;
 	margin-top:15px;
-	
 	left:0px;
-
-	
-
 
 }
 
@@ -175,9 +168,6 @@ body{
 	margin-right:5px;
 	font-family: "Lucida Console", Monaco, monospace;
 	color:#996666;
-
-
-
 
 
 }
